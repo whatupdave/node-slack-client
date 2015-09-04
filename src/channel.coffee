@@ -133,7 +133,7 @@ class Channel
     @_client._apiCall method, params, @_onMark
 
   _onMark: (data) =>
-    @_client.logger.debug data
+    # @_client.logger.debug data
     # TODO: Update @unread_count based on ts
 
   leave: ->
