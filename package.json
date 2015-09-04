@@ -5,6 +5,7 @@
   "main": "./index",
   "scripts": {
     "test": "mocha --compilers coffee:coffee-script/register --reporter spec",
+    "preinstall": "grunt prepublish",
     "prepublish": "grunt prepublish"
   },
   "keywords": [
